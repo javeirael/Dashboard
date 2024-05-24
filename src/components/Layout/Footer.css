@@ -1,0 +1,42 @@
+  .footer {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    font-size: 10px;
+    height: 20%;
+}
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px; /* Añadir padding para espacio interno sin causar scroll */
+    box-sizing: border-box; /* Incluir padding en el cálculo del ancho */
+  }
+  
+  .footer-content p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .footer-content nav {
+    margin-top: 0px;
+    
+  }
+  
+  .footer-content nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 1rem;
+  }
+  
+  .footer-content nav a:hover {
+    text-decoration: underline;
+  }
+  
